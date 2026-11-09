@@ -1,0 +1,11 @@
+.env
+.streamlit/secrets.toml
+venv/
+env/
+__pycache__/
+*.pyc
+vector_store/
+job_vectors/
+*.sqlite3
+.DS_Store
+Thumbs.db
