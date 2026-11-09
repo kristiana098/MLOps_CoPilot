@@ -3,7 +3,8 @@
 An interactive, local Retrieval-Augmented Generation (RAG) assistant built to retrieve and synthesize technical documentation for infrastructure tools like Docker, Kubernetes, and GitHub Actions.
 
 ## 🚀 Project Overview
-Building machine learning models is only half the battle; deploying and maintaining them requires deep infrastructure knowledge. I built this tool to bridge the gap between Data Science and MLOps. Instead of relying on generalized LLM knowledge, this Co-Pilot grounds its answers strictly in the official technical documentation I ingest into its local vector memory, preventing hallucinations and providing exact configuration commands.
+## 🚀 Project Overview
+This is a mini project created to test how a chat application can answer specific questions using a local Retrieval-Augmented Generation (RAG) system. I built this to experiment with vector databases, embedding models, and Streamlit, creating a custom chat interface that answers questions based purely on the text files uploaded to its memory.
 
 ### Key Features
 * **Local Vector Storage:** Uses ChromaDB to store and retrieve document embeddings entirely locally.
@@ -22,5 +23,5 @@ Building machine learning models is only half the battle; deploying and maintain
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/yourusername/MLOps_CoPilot.git](https://github.com/yourusername/MLOps_CoPilot.git)
+   git clone [https://github.com/yourusername/MLOps_CoPilot.git](https://github.com/kristiana098/MLOps_CoPilot.git)
    cd MLOps_CoPilot
